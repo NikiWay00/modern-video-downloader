@@ -16,6 +16,27 @@ e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.5.0] - 2026-02-01
+
+### 🐛 Fixed
+- Risolto NameError critico nel sistema auto-update (variable scope in exception handler)
+  - Gli utenti ora ricevono correttamente messaggi di errore quando il check update fallisce
+  - Fix applicato a entrambi i blocchi except in `_check_for_updates()`
+
+### ✅ Improved
+- Sistema auto-update completamente testato e validato
+  - Integrazione GitHub Releases funzionante al 100%
+  - Dialog update testato con release reali
+  - Download e installazione verificati
+
+### 🔧 Infrastructure
+- Repository GitHub configurato e pubblico
+  - SSH authentication setup completato
+  - GitHub Releases workflow stabilito
+  - Primo deployment production-ready
+
+---
+
 ## [0.4.1] - 2026-02-01
 
 ### ✨ Added

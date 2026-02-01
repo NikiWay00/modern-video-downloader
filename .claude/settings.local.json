@@ -11,7 +11,20 @@
       "Bash(ls:*)",
       "Read(//c/Users/Vegeta/Desktop/progetti xcode/modern_video_downloader/**)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(gh:*)",
+      "Bash(ssh-keygen:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(ssh-keyscan:*)",
+      "Bash(~/.ssh/known_hosts)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(curl:*)",
+      "Bash(git tag:*)"
     ]
   }
 }

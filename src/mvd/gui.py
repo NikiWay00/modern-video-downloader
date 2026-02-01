@@ -1118,17 +1118,19 @@ class VideoDownloaderGUI(ctk.CTk):
                     ))
 
             except updater.UpdateCheckError as e:
+                error_msg = str(e)
                 logging.error(f"Update check failed: {e}")
                 self.after(0, lambda: messagebox.showerror(
                     "❌ Errore",
-                    f"Impossibile controllare aggiornamenti:\n\n{str(e)}\n\n"
+                    f"Impossibile controllare aggiornamenti:\n\n{error_msg}\n\n"
                     f"Verifica la connessione internet e riprova."
                 ))
             except Exception as e:
+                error_msg = str(e)
                 logging.exception("Unexpected error checking updates")
                 self.after(0, lambda: messagebox.showerror(
                     "❌ Errore",
-                    f"Errore imprevisto:\n\n{str(e)}"
+                    f"Errore imprevisto:\n\n{error_msg}"
                 ))
 
         # Esegui in background thread
