@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(python:*)",
+      "Bash(.venvScriptspip.exe install -r requirements.txt)",
+      "Bash(\".venv/Scripts/pip.exe\" install -r requirements.txt)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Read(//c/Users/Vegeta/Desktop/progetti xcode/modern_video_downloader/**)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
